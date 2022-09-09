@@ -276,3 +276,24 @@ body {
 .skills-list__item_gray{
     background-color: var(--light-gray);
 }
+
+/* Languages Style */
+.languages__item{
+    padding: 0 0 10px 15px;
+    position: relative;
+}
+.languages__item:last-child{
+    padding: 0 0 0 15px;
+}
+.languages__item::before{
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    margin-right: 10px;
+}
