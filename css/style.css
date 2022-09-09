@@ -131,7 +131,7 @@ body {
     padding-bottom: 10px;
 }
 
-/* Header Style Start */
+/* Header Style */
 .header{
     width: 100%;
     display: flex;
@@ -190,4 +190,43 @@ body {
 }
 .header__subtitle{
     font-size: 25px;
+}
+
+/* Contact Style */
+.contact__block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.contact__image{
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.contact__image_github{
+    background-image: url(../images/github.svg);
+}
+.contact__image_vk{
+    background-image: url(../images/vk.svg);
+}
+.contact__image_telegram{
+    background-image: url(../images/telegram.svg);
+}
+.contact__image_email{
+    background-image: url(../images/email.svg);
+}
+.contact__image_map{
+    background-image: url(../images/map.svg);
+}
+.contact__link{
+    color: var(--text-color);
+    text-decoration: none;
+    transition: all .4s linear;
+}
+.contact__link:hover{
+    color: var(--main-color);
+    text-decoration: underline;
 }
