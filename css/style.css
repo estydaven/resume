@@ -297,3 +297,20 @@ body {
     border-radius: 50%;
     margin-right: 10px;
 }
+
+/* Work Style */
+.work__block{
+    margin-bottom: 30px;
+}
+.work__head{
+    margin-bottom: 10px;
+}
+.work__info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.work__date{
+    margin-right: 10px;
+    text-align: center;
+}
