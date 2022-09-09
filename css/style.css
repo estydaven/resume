@@ -314,3 +314,27 @@ body {
     margin-right: 10px;
     text-align: center;
 }
+
+/* Hobby Style */
+.hobby__wrapper{
+    display: flex;
+    align-items: center;
+}
+.hobby__row{
+    width: 50%;
+}
+.hobby__block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.hobby__dot{
+    width: 10px;
+    height: 10px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.hobby__text{
+    font-weight: 600;
+}
