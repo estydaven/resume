@@ -230,3 +230,14 @@ body {
     color: var(--main-color);
     text-decoration: underline;
 }
+
+/* Education Style */
+.education__block{
+    margin-bottom: 40px;
+}
+.education__date{
+    margin-bottom: 10px;
+}
+.education__text{
+    font-weight: 600;
+}
