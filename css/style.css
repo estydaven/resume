@@ -241,3 +241,38 @@ body {
 .education__text{
     font-weight: 600;
 }
+
+/* Skills Style */
+.skills__block{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.skills__text{
+    width: 110px;
+    margin-right: 15px;
+    font-weight: 600;
+}
+.skills-list{
+    display: flex;
+    align-items: center;
+}
+.skills-list__item{
+    width: 10px;
+    height: 10px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: all .3s linear;
+}
+.skills-list__item:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.skills-list__item:last-child{
+    margin-right: 0;
+}
+.skills-list__item_gray{
+    background-color: var(--light-gray);
+}
